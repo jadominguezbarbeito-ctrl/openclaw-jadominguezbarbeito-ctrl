@@ -9,11 +9,12 @@ Todas las herramientas pasan por Zapier MCP y usan la cuenta de prueba de 4Geeks
 - **Formato:** el contenido se envía en HTML básico (`<h1>`, `<h2>`, `<p>`, `<ul><li>`, `<strong>`). Nunca texto plano sin etiquetas.
 
 ## Google Calendar
-- **Acción:** crear evento con texto rápido (`google_calendar_quick_add_event`).
+- **Acción:** crear evento detallado con `execute_zapier_write_action` y la acción `detailed_event` de Google Calendar. Nunca uses `google_calendar_quick_add_event`: pone mal las fechas.
 - **Cuándo usarlo:** cuando Jesús pida agendar una cita, visita, reunión o recordatorio.
 - **Zona horaria:** siempre Europe/Madrid (hora de España).
+- Calendario: el principal ("primary") de la cuenta conectada en Zapier. No preguntes el ID.
 - **Si no indica hora:** a las 18:00.
-- **Duración por defecto:** 1 hora. Escribo siempre la hora de inicio y de fin en el texto. Ejemplo: `Visita obra Pérez el 12 de noviembre de 18:00 a 19:00`.
+- **Duración por defecto:** 1 hora. Paso siempre fecha, hora de inicio y hora de fin como campos separados, en formato ISO y zona Europe/Madrid. Ejemplo: "Visita obra Pérez", inicio 2026-11-12T18:00, fin 2026-11-12T19:00.
 
 ## Telegram
 - Es el canal donde hablo con Jesús.
