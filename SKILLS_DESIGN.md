@@ -75,3 +75,5 @@ Crea un documento de preguntas de repaso sobre lo aprendido en una semana concre
   - todas las preguntas tratan sobre lo de esa semana;
   - ninguna pregunta deja ver su respuesta;
   - las soluciones están al final y coinciden con las preguntas.
+
+`preguntas-repaso`: La skill 3 está diseñada pero no implementada en esta entrega porque el enunciado pide un mínimo de 2 skills. La skill se solapa en parte con la skill 2, la skill 2 ya dice qué repasar, y esta skill añadiría las preguntas de ese repaso. Las preguntas podrían ser una mejora de la skill 2 más adelante, por ejemplo: añadiendo un apartado más al documento en vez de una skill aparte.
